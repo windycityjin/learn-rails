@@ -35,7 +35,7 @@ group :development, :test do
   gem 'byebug', platform: :mri
 end
 
-group :development do
+ group :development do
   # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
   gem 'web-console'
   gem 'listen', '~> 3.0.5'
@@ -46,3 +46,15 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+#learn-rails
+gem 'foundation-rails'
+gem 'high_voltage'
+gem 'simple_form'
+group :development do
+ gem 'better_errors'
+ #gem 'quiet_assets', '~> 3.1'
+ gem 'rails_layout'
+end
+
+
